@@ -1,0 +1,93 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px 20px;
+    border-radius: 30px;
+    max-width: 400px;
+}
+
+.container .selecionar-nota .estrela {
+    background-color: hsl(213, 19%, 21%);
+    padding: 15px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.container .titulo {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.container .selecionar-nota .texto {
+    color: hsl(216, 12%, 54%);
+    margin-bottom: 35px;
+}
+
+.container .selecionar-nota .notas {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.container .selecionar-nota .notas .nota {
+    background-color: hsl(213, 19%, 21%);
+    height: 46px;
+    width: 46px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(217, 12%, 63%);
+    transition: 0.5s;
+}
+
+.container .selecionar-nota .notas .nota:hover {
+    transform: scale(1.2);
+}
+
+.container .selecionar-nota .enviar {
+    background-color: hsl(25, 97%, 53%);
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50px;
+    letter-spacing: 3px;
+    transition: 0.5s;
+}
+
+.container .selecionar-nota .enviar:hover {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+}
+
+.container .agradecimento {
+    text-align: center;
+    padding: 10px;
+    display: none;
+}
+
+.container .agradecimento .imagem-obrigado {
+    margin-bottom: 15px;
+}
+
+.container .agradecimento .nota-selecionada {
+    background-color: hsl(213, 19%, 21%);
+    display: inline-block;
+    padding: 5px 15px;
+    color: hsl(25, 97%, 53%);
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.container .agradecimento .texto-agradecimento {
+    color: hsl(216, 12%, 54%);
+}
